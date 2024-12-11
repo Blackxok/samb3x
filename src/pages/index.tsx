@@ -1,7 +1,9 @@
+import { Heading } from '../components'
+
 export default function Home() {
 	return (
 		<main className={`flex min-h-screen flex-col items-center justify-between p-24`}>
-			<h1>Assalomu alekum</h1>
+			<Heading tag='h1'>Assalomu alekum</Heading>
 		</main>
 	)
 }
