@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { Button, Heading, Tag, Text } from '../components'
+import { Button, Heading, Input, Tag, Text } from '../components'
+import Textarea from '../components/textarea/textarea'
 
 export default function Home() {
 	const [isClicked, setIsClicked] = useState(false)
@@ -21,6 +22,12 @@ export default function Home() {
 			>
 				Button3
 			</Button>
+			<br />
+			<br />
+			<Input placeholder='Enter your text' />
+			<br />
+			<br />
+			<Textarea placeholder='Text' />
 		</main>
 	)
 }
