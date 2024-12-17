@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Button, Heading, Input, Tag, Text } from '../components'
+import { Button, Heading, Input, Rating, Tag, Text } from '../components'
 import Textarea from '../components/textarea/textarea'
 
 export default function Home() {
@@ -28,6 +28,8 @@ export default function Home() {
 			<br />
 			<br />
 			<Textarea placeholder='Text' />
+			<br />
+			<Rating rating={4} isEditable={true} />
 		</main>
 	)
 }
